@@ -13,3 +13,8 @@ opencv-python
 arabic-reshaper
 python-bidi
 unicodedata2
+groq
+langdetect
+deep-translator
+textblob
+spellchecker

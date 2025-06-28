@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Startup script for the Arabic Legal Documents RAG API
+Startup script for the Arabic Legal Documents RAG API with Agentic Workflow
 """
 
 import subprocess
@@ -18,40 +18,41 @@ def install_requirements():
         print(f"❌ Failed to install requirements: {e}")
         return False
 
-def check_ollama():
-    """Check if Ollama is available"""
+def check_groq_api_key():
+    """Check if Groq API key is set"""
+    api_key = os.getenv("GROQ_API_KEY")
+    if not api_key or api_key == "your-groq-api-key-here":
+        print("⚠️ Groq API key not found!")
+        print("Please set your Groq API key:")
+        print("export GROQ_API_KEY='your-actual-groq-api-key'")
+        print("You can get a free API key from: https://console.groq.com/")
+        return False
+    else:
+        print("✅ Groq API key found")
+        return True
+
+def check_tesseract():
+    """Check if Tesseract is installed"""
     try:
-        result = subprocess.run(["ollama", "--version"], capture_output=True, text=True)
+        result = subprocess.run(["tesseract", "--version"], capture_output=True, text=True)
         if result.returncode == 0:
-            print("✅ Ollama is available")
+            print("✅ Tesseract is available")
             return True
         else:
-            print("❌ Ollama is not available")
+            print("❌ Tesseract is not available")
             return False
     except FileNotFoundError:
-        print("❌ Ollama is not installed or not in PATH")
-        return False
-
-def check_deepseek_model():
-    """Check if deepseek-r1:7b model is available in Ollama"""
-    try:
-        result = subprocess.run(["ollama", "list"], capture_output=True, text=True)
-        if "deepseek-r1:7b" in result.stdout:
-            print("✅ deepseek-r1:7b model is available")
-            return True
-        else:
-            print("⚠️ deepseek-r1:7b model not found")
-            print("📥 Downloading deepseek-r1:7b model...")
-            subprocess.run(["ollama", "pull", "deepseek-r1:7b"])
-            return True
-    except Exception as e:
-        print(f"❌ Error checking Ollama models: {e}")
+        print("❌ Tesseract is not installed")
+        print("Please install Tesseract OCR:")
+        print("Ubuntu/Debian: sudo apt-get install tesseract-ocr")
+        print("macOS: brew install tesseract")
+        print("Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki")
         return False
 
 def main():
     """Main startup function"""
-    print("🚀 Starting Arabic Legal Documents RAG API")
-    print("=" * 50)
+    print("🚀 Starting Arabic Legal RAG System with Agentic Workflow")
+    print("=" * 60)
     
     # Change to backend directory
     backend_dir = os.path.dirname(os.path.abspath(__file__))
@@ -61,26 +62,24 @@ def main():
     if not install_requirements():
         sys.exit(1)
     
-    # Check Ollama
-    if not check_ollama():
-        print("\n📋 To install Ollama:")
-        print("1. Visit: https://ollama.ai/")
-        print("2. Download and install Ollama")
-        print("3. Run: ollama pull deepseek-r1:7b")
-        print("\n⚠️ The system will work without Ollama, but AI responses will show error messages.")
-    else:
-        check_deepseek_model()
+    # Check Groq API key
+    if not check_groq_api_key():
+        print("\n⚠️ The system will work with limited functionality without Groq API key.")
+    
+    # Check Tesseract
+    if not check_tesseract():
+        print("\n⚠️ The system will work with limited OCR functionality without Tesseract.")
     
     print("\n🌟 Starting FastAPI server...")
-    print("🔗 API will be available at: http://localhost:8000")
-    print("📖 API docs at: http://localhost:8000/docs")
+    print("🔗 API will be available at: http://localhost:8001")
+    print("📖 API docs at: http://localhost:8001/docs")
     print("🛑 Press Ctrl+C to stop the server")
-    print("=" * 50)
+    print("=" * 60)
     
     # Start the FastAPI server
     try:
         import uvicorn
-        uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+        uvicorn.run("main:app", host="0.0.0.0", port=8001, reload=True)
     except KeyboardInterrupt:
         print("\n👋 Server stopped by user")
     except Exception as e:
@@ -88,4 +87,4 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
-    main() 
+    main()
