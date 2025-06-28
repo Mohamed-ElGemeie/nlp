@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Arabic text optimization */
+.arabic-text {
+  font-family: 'Amiri', 'Noto Naskh Arabic', 'Times New Roman', serif;
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+  font-feature-settings: 'liga' 1, 'calt' 1, 'kern' 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fix Arabic text direction issues */
+*[dir="rtl"] {
+  direction: rtl !important;
+  text-align: right !important;
+  unicode-bidi: embed !important;
+}
+
+/* Ensure proper Arabic font rendering */
+*[lang="ar"] {
+  font-family: 'Amiri', 'Noto Naskh Arabic', 'Times New Roman', serif !important;
+  font-feature-settings: 'liga' 1, 'calt' 1, 'kern' 1 !important;
+  text-rendering: optimizeLegibility !important;
+}

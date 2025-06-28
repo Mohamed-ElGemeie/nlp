@@ -1,0 +1,800 @@
+[
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "fitz",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fitz",
+        "description": "fitz",
+        "detail": "fitz",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "faiss",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "faiss",
+        "description": "faiss",
+        "detail": "faiss",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "unicodedata",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "pytesseract",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytesseract",
+        "description": "pytesseract",
+        "detail": "pytesseract",
+        "documentation": {}
+    },
+    {
+        "label": "easyocr",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "easyocr",
+        "description": "easyocr",
+        "detail": "easyocr",
+        "documentation": {}
+    },
+    {
+        "label": "arabic_reshaper",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "arabic_reshaper",
+        "description": "arabic_reshaper",
+        "detail": "arabic_reshaper",
+        "documentation": {}
+    },
+    {
+        "label": "get_display",
+        "importPath": "bidi.algorithm",
+        "description": "bidi.algorithm",
+        "isExtraImport": true,
+        "detail": "bidi.algorithm",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "SearchRequest",
+        "kind": 6,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "class SearchRequest(BaseModel):\n    query: str\n    top_k: Optional[int] = 5\nclass SearchResult(BaseModel):\n    content: str\n    source: str\n    metadata: str\n    similarity_score: float\n    chunk_id: int\nclass AgentResponse(BaseModel):",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "SearchResult",
+        "kind": 6,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "class SearchResult(BaseModel):\n    content: str\n    source: str\n    metadata: str\n    similarity_score: float\n    chunk_id: int\nclass AgentResponse(BaseModel):\n    model_name: str\n    response: str\n    processing_time: float",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "AgentResponse",
+        "kind": 6,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "class AgentResponse(BaseModel):\n    model_name: str\n    response: str\n    processing_time: float\n    error: Optional[str] = None\nclass MultiAgentRAGResponse(BaseModel):\n    question: str\n    retrieved_documents: List[SearchResult]\n    agent_responses: List[AgentResponse]\n    orchestrator_response: str",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "MultiAgentRAGResponse",
+        "kind": 6,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "class MultiAgentRAGResponse(BaseModel):\n    question: str\n    retrieved_documents: List[SearchResult]\n    agent_responses: List[AgentResponse]\n    orchestrator_response: str\n    final_answer: str\n    total_processing_time: Optional[float] = None\n    error: Optional[str] = None\nclass SystemStats(BaseModel):\n    totalDocuments: int",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "SystemStats",
+        "kind": 6,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "class SystemStats(BaseModel):\n    totalDocuments: int\n    totalChunks: int\n    indexSize: int\n    lastUpdated: str\n    processingStatus: str\n    agentModels: List[str]\n    orchestratorModel: str\ndef initialize_ocr():\n    \"\"\"Initialize OCR readers for Arabic text\"\"\"",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_ocr",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def initialize_ocr():\n    \"\"\"Initialize OCR readers for Arabic text\"\"\"\n    global easyocr_reader\n    try:\n        print(\"🔧 تحميل محرك OCR للنصوص العربية...\")\n        # Initialize EasyOCR with Arabic support\n        easyocr_reader = easyocr.Reader(['ar', 'en'], gpu=False, verbose=False)\n        print(\"✅ تم تحميل محرك OCR بنجاح\")\n        return True\n    except Exception as e:",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "fix_legal_document_formatting",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def fix_legal_document_formatting(text: str) -> str:\n    \"\"\"Fix specific formatting issues in Egyptian legal documents\"\"\"\n    if not text:\n        return \"\"\n    try:\n        # Fix common legal document patterns\n        # Fix article numbers and legal references\n        text = re.sub(r'(\\d+)\\s*مكرر\\s*\\)\\s*([أبجد])\\s*\\(', r'\\1 مكرر (\\2)', text)\n        text = re.sub(r'القانون\\s*رقم\\s*(\\d+)\\s*لسنة\\s*(\\d+)', r'القانون رقم \\1 لسنة \\2', text)\n        text = re.sub(r'المادة\\s*(\\d+)', r'المادة \\1', text)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "advanced_arabic_text_cleaner",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def advanced_arabic_text_cleaner(text: str) -> str:\n    \"\"\"Advanced Arabic text cleaning specifically for legal documents\"\"\"\n    if not text or not text.strip():\n        return \"\"\n    try:\n        # Normalize Unicode for proper Arabic handling\n        text = unicodedata.normalize('NFKC', text)\n        # Remove BOM and invisible characters\n        text = re.sub(r'[\\ufeff\\u200b\\u200c\\u200d\\u2060\\u061c\\u202a-\\u202e]', '', text)\n        # Fix encoding artifacts and corrupted characters",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "enhanced_ocr_for_arabic",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def enhanced_ocr_for_arabic(image_data: bytes) -> str:\n    \"\"\"Enhanced OCR specifically tuned for Arabic legal documents\"\"\"\n    try:\n        # Convert to PIL Image\n        image = Image.open(io.BytesIO(image_data))\n        img_array = np.array(image)\n        # Preprocess for optimal Arabic OCR\n        if len(img_array.shape) == 3:\n            gray = cv2.cvtColor(img_array, cv2.COLOR_RGB2GRAY)\n        else:",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_embedding_model",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def initialize_embedding_model():\n    \"\"\"Initialize Arabic-compatible embedding model\"\"\"\n    global embedding_model\n    try:\n        print(\"📥 تحميل نموذج التشفير للبحث...\")\n        embedding_model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2')\n        print(\"✅ تم تحميل نموذج التشفير بنجاح\")\n        return True\n    except Exception as e:\n        print(f\"❌ فشل تحميل نموذج التشفير: {e}\")",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "save_embeddings_and_documents",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def save_embeddings_and_documents(embeddings_array):\n    \"\"\"Save embeddings and documents to file\"\"\"\n    global documents\n    try:\n        print(\"💾 حفظ التضمينات والوثائق...\")\n        # Prepare data to save\n        save_data = {\n            'embeddings': embeddings_array,\n            'documents': documents,\n            'index_size': len(embeddings_array)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "load_embeddings_and_documents",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def load_embeddings_and_documents():\n    \"\"\"Load embeddings and documents from file\"\"\"\n    global faiss_index, documents\n    try:\n        if not os.path.exists(EMBEDDINGS_FILE):\n            print(\"📁 لا يوجد ملف تضمينات محفوظ\")\n            return False\n        print(\"📂 تحميل التضمينات والوثائق المحفوظة...\")\n        # Load data from pickle file\n        with open(EMBEDDINGS_FILE, 'rb') as f:",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_legal_pdf",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def extract_text_from_legal_pdf(pdf_path: str) -> str:\n    \"\"\"Enhanced PDF text extraction for Arabic legal documents\"\"\"\n    try:\n        print(f\"📄 معالجة الوثيقة القانونية: {os.path.basename(pdf_path)}\")\n        # Use proper PyMuPDF API\n        doc = fitz.Document(pdf_path)\n        full_text = \"\"\n        for page_num in range(len(doc)):\n            page = doc.load_page(page_num)\n            text = \"\"",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "smart_chunk_legal_text",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def smart_chunk_legal_text(text: str, chunk_size: int = CHUNK_SIZE, overlap: int = OVERLAP) -> List[str]:\n    \"\"\"Smart chunking for Arabic legal documents\"\"\"\n    if not text or len(text.strip()) < 50:\n        return []\n    chunks = []\n    # Try to split by legal sections first\n    legal_sections = re.split(r'(?=المادة\\s+\\d+|الفقرة\\s+\\d+|البند\\s+\\d+|الفصل\\s+\\d+)', text)\n    if len(legal_sections) > 1:\n        # Process each legal section\n        for section in legal_sections:",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_enhanced_legal_prompt",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def create_enhanced_legal_prompt(query: str, context: str) -> str:\n    \"\"\"Create simple and effective Arabic-only prompt for legal questions\"\"\"\n    prompt = f\"\"\"أنت خبير قانوني مصري متخصص في القانون المصري. يجب أن تجيب باللغة العربية فقط ولا تستخدم أي لغة أجنبية.\nالسؤال: {query}\nالنصوص القانونية المرجعية:\n{context}\nتعليمات:\n1. أجب باللغة العربية الفصحى فقط\n2. اعتمد على النصوص المرفقة أعلاه\n3. اذكر رقم القانون والمادة إذا وجدت",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "create_orchestrator_prompt",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def create_orchestrator_prompt(query: str, context: str, agent_responses: List[AgentResponse]) -> str:\n    \"\"\"Create enhanced Arabic orchestrator prompt that synthesizes multiple AI responses\"\"\"\n    agent_answers = \"\"\n    for i, agent_resp in enumerate(agent_responses, 1):\n        agent_answers += f\"\"\"\n📋 تحليل النموذج {i} ({agent_resp.model_name}):\n{agent_resp.response}\n{'='*80}\n\"\"\"\n    prompt = f\"\"\"أنت خبير قانوني مصري متخصص في القانون المصري والتشريعات العربية، تتمتع بخبرة واسعة في تحليل النصوص القانونية ودمج الآراء المتعددة. لديك القدرة على التفكير التحليلي العميق والاستنتاج المنطقي.",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "query_single_agent",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def query_single_agent(prompt: str, model_name: str) -> AgentResponse:\n    \"\"\"Query a single agent model and return structured response\"\"\"\n    start_time = time.time()\n    try:\n        print(f\"🔄 استدعاء النموذج {model_name}...\")\n        cmd = [\"ollama\", \"run\", model_name]\n        process = subprocess.Popen(\n            cmd, \n            stdin=subprocess.PIPE, \n            stdout=subprocess.PIPE, ",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "clean_arabic_response",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def clean_arabic_response(text: str) -> str:\n    \"\"\"Clean response to ensure it's purely Arabic\"\"\"\n    import re\n    try:\n        # Remove Chinese characters (CJK Unified Ideographs)\n        text = re.sub(r'[\\u4e00-\\u9fff]+', '', text)\n        # Remove common English/foreign words that shouldn't be in Arabic legal text\n        foreign_words = [\n            # English words\n            r'\\bLIABLE\\b', r'\\bVAT\\b', r'\\bwithholding\\b', r'\\btax\\b', ",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "extract_answer_after_think",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def extract_answer_after_think(response: str) -> str:\n    \"\"\"Extract the answer portion after </think> tag and clean it\"\"\"\n    try:\n        # Find the </think> tag and extract everything after it\n        think_end = response.find('</think>')\n        if think_end != -1:\n            # Extract content after </think> and clean it up\n            answer = response[think_end + len('</think>'):].strip()\n            # Remove any remaining whitespace and newlines at the beginning\n            answer = '\\n'.join(line.strip() for line in answer.split('\\n') if line.strip())",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "run_multi_agent_analysis",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def run_multi_agent_analysis(query: str, context: str) -> tuple[List[AgentResponse], str]:\n    \"\"\"Run multi-agent analysis with 2 models sequentially, then orchestrate\"\"\"\n    print(\"🚀 بدء التحليل متعدد النماذج...\")\n    # Step 1: Run 2 agent models sequentially\n    agent_responses = []\n    prompt = create_enhanced_legal_prompt(query, context)\n    for model_name in AGENT_MODELS:\n        print(f\"📡 تشغيل النموذج {model_name}...\")\n        agent_response = query_single_agent(prompt, model_name)\n        agent_responses.append(agent_response)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "query_ollama_enhanced",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def query_ollama_enhanced(prompt: str, model_name: str = \"qwen2.5:14b\") -> str:\n    \"\"\"Enhanced Ollama query for legal responses\"\"\"\n    try:\n        print(f\"🔄 استدعاء Ollama للتحليل القانوني بنموذج: {model_name}\")\n        cmd = [\"ollama\", \"run\", model_name]\n        process = subprocess.Popen(\n            cmd, \n            stdin=subprocess.PIPE, \n            stdout=subprocess.PIPE, \n            stderr=subprocess.PIPE, ",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "search_legal_documents",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def search_legal_documents(query: str, top_k: int = TOP_K) -> List[Dict]:\n    \"\"\"Enhanced search for legal documents\"\"\"\n    if faiss_index is None or not documents or embedding_model is None:\n        return []\n    try:\n        # Encode query\n        query_embedding = embedding_model.encode([query])\n        query_embedding = query_embedding.astype('float32')\n        faiss.normalize_L2(query_embedding)\n        # Search in FAISS index",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = FastAPI(title=\"Enhanced Arabic Legal Documents RAG API - Multi-Agent\")\n# CORS middleware for React frontend\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:5174\", \"http://localhost:5173\", \"http://localhost:3000\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\n# Configuration",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "PDF_FOLDER",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "PDF_FOLDER = os.path.join(os.path.dirname(__file__), \"..\", \"src\", \"قوانين\")\nEMBEDDINGS_FILE = os.path.join(os.path.dirname(__file__), \"embeddinghere.pkl\")\nCHUNK_SIZE = 1000\nOVERLAP = 100\nTOP_K = 5\n# Multi-Agent Configuration\nAGENT_MODELS = [\n    \"llama3:latest\",\n    \"qwen2.5:14b\"\n]",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDINGS_FILE",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "EMBEDDINGS_FILE = os.path.join(os.path.dirname(__file__), \"embeddinghere.pkl\")\nCHUNK_SIZE = 1000\nOVERLAP = 100\nTOP_K = 5\n# Multi-Agent Configuration\nAGENT_MODELS = [\n    \"llama3:latest\",\n    \"qwen2.5:14b\"\n]\nORCHESTRATOR_MODEL = \"deepseek-r1:32b\"",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_SIZE",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "CHUNK_SIZE = 1000\nOVERLAP = 100\nTOP_K = 5\n# Multi-Agent Configuration\nAGENT_MODELS = [\n    \"llama3:latest\",\n    \"qwen2.5:14b\"\n]\nORCHESTRATOR_MODEL = \"deepseek-r1:32b\"\n# Global variables",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "OVERLAP",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "OVERLAP = 100\nTOP_K = 5\n# Multi-Agent Configuration\nAGENT_MODELS = [\n    \"llama3:latest\",\n    \"qwen2.5:14b\"\n]\nORCHESTRATOR_MODEL = \"deepseek-r1:32b\"\n# Global variables\nembedding_model = None",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "TOP_K",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "TOP_K = 5\n# Multi-Agent Configuration\nAGENT_MODELS = [\n    \"llama3:latest\",\n    \"qwen2.5:14b\"\n]\nORCHESTRATOR_MODEL = \"deepseek-r1:32b\"\n# Global variables\nembedding_model = None\nfaiss_index = None",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "AGENT_MODELS",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "AGENT_MODELS = [\n    \"llama3:latest\",\n    \"qwen2.5:14b\"\n]\nORCHESTRATOR_MODEL = \"deepseek-r1:32b\"\n# Global variables\nembedding_model = None\nfaiss_index = None\ndocuments = []\neasyocr_reader = None",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "ORCHESTRATOR_MODEL",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "ORCHESTRATOR_MODEL = \"deepseek-r1:32b\"\n# Global variables\nembedding_model = None\nfaiss_index = None\ndocuments = []\neasyocr_reader = None\nclass SearchRequest(BaseModel):\n    query: str\n    top_k: Optional[int] = 5\nclass SearchResult(BaseModel):",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "embedding_model",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "embedding_model = None\nfaiss_index = None\ndocuments = []\neasyocr_reader = None\nclass SearchRequest(BaseModel):\n    query: str\n    top_k: Optional[int] = 5\nclass SearchResult(BaseModel):\n    content: str\n    source: str",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "faiss_index",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "faiss_index = None\ndocuments = []\neasyocr_reader = None\nclass SearchRequest(BaseModel):\n    query: str\n    top_k: Optional[int] = 5\nclass SearchResult(BaseModel):\n    content: str\n    source: str\n    metadata: str",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "documents",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "documents = []\neasyocr_reader = None\nclass SearchRequest(BaseModel):\n    query: str\n    top_k: Optional[int] = 5\nclass SearchResult(BaseModel):\n    content: str\n    source: str\n    metadata: str\n    similarity_score: float",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "easyocr_reader",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "easyocr_reader = None\nclass SearchRequest(BaseModel):\n    query: str\n    top_k: Optional[int] = 5\nclass SearchResult(BaseModel):\n    content: str\n    source: str\n    metadata: str\n    similarity_score: float\n    chunk_id: int",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "install_requirements",
+        "kind": 2,
+        "importPath": "backend.run",
+        "description": "backend.run",
+        "peekOfCode": "def install_requirements():\n    \"\"\"Install required packages\"\"\"\n    try:\n        print(\"📦 Installing required packages...\")\n        subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"-r\", \"requirements.txt\"])\n        print(\"✅ Requirements installed successfully!\")\n        return True\n    except subprocess.CalledProcessError as e:\n        print(f\"❌ Failed to install requirements: {e}\")\n        return False",
+        "detail": "backend.run",
+        "documentation": {}
+    },
+    {
+        "label": "check_ollama",
+        "kind": 2,
+        "importPath": "backend.run",
+        "description": "backend.run",
+        "peekOfCode": "def check_ollama():\n    \"\"\"Check if Ollama is available\"\"\"\n    try:\n        result = subprocess.run([\"ollama\", \"--version\"], capture_output=True, text=True)\n        if result.returncode == 0:\n            print(\"✅ Ollama is available\")\n            return True\n        else:\n            print(\"❌ Ollama is not available\")\n            return False",
+        "detail": "backend.run",
+        "documentation": {}
+    },
+    {
+        "label": "check_deepseek_model",
+        "kind": 2,
+        "importPath": "backend.run",
+        "description": "backend.run",
+        "peekOfCode": "def check_deepseek_model():\n    \"\"\"Check if deepseek-r1:7b model is available in Ollama\"\"\"\n    try:\n        result = subprocess.run([\"ollama\", \"list\"], capture_output=True, text=True)\n        if \"deepseek-r1:7b\" in result.stdout:\n            print(\"✅ deepseek-r1:7b model is available\")\n            return True\n        else:\n            print(\"⚠️ deepseek-r1:7b model not found\")\n            print(\"📥 Downloading deepseek-r1:7b model...\")",
+        "detail": "backend.run",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.run",
+        "description": "backend.run",
+        "peekOfCode": "def main():\n    \"\"\"Main startup function\"\"\"\n    print(\"🚀 Starting Arabic Legal Documents RAG API\")\n    print(\"=\" * 50)\n    # Change to backend directory\n    backend_dir = os.path.dirname(os.path.abspath(__file__))\n    os.chdir(backend_dir)\n    # Install requirements\n    if not install_requirements():\n        sys.exit(1)",
+        "detail": "backend.run",
+        "documentation": {}
+    },
+    {
+        "label": "test_enhanced_backend",
+        "kind": 2,
+        "importPath": "backend.test_arabic_enhancement",
+        "description": "backend.test_arabic_enhancement",
+        "peekOfCode": "def test_enhanced_backend():\n    \"\"\"Test the enhanced Arabic legal document processing\"\"\"\n    base_url = \"http://localhost:8000\"\n    # Test health check\n    print(\"🔍 اختبار حالة النظام المحسن...\")\n    try:\n        response = requests.get(f\"{base_url}/api/health\")\n        if response.status_code == 200:\n            health = response.json()\n            print(\"✅ النظام يعمل بشكل صحيح:\")",
+        "detail": "backend.test_arabic_enhancement",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "node_modules.flatted.python.flatted",
+        "description": "node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "node_modules.flatted.python.flatted",
+        "description": "node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "node_modules.flatted.python.flatted",
+        "description": "node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "node_modules.flatted.python.flatted",
+        "description": "node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "node_modules.flatted.python.test",
+        "description": "node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "node_modules.flatted.python.test",
+        "documentation": {}
+    }
+]
